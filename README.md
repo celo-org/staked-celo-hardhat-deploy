@@ -1,4 +1,4 @@
-This is a fork of hardhat-deploy with only change and which is not to check owner of the proxy while upgrading.
+This is a fork of hardhat-deploy with only change which is not to check owner of the proxy while upgrading.
 
 More info can be found in following issue
 

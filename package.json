@@ -1,5 +1,5 @@
 {
-  "name": "@pahor167/hardhat-deploy",
+  "name": "@celo/staked-celo-hardhat-deploy",
   "version": "0.11.19",
   "description": "Hardhat Plugin For Replicable Deployments And Tests",
   "repository": {
