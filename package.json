@@ -1,6 +1,6 @@
 {
   "name": "@celo/staked-celo-hardhat-deploy",
-  "version": "0.11.20",
+  "version": "0.11.21",
   "description": "Hardhat Plugin For Replicable Deployments And Tests",
   "repository": {
     "type": "git",
