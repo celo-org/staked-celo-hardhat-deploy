@@ -990,7 +990,7 @@ Note that in this case, the contract deployment will not behave the same if depl
                 // console.log(`proxy deployed at ${proxy.address} for ${proxy.receipt.gasUsed}`);
             }
             else {
-                const ownerStorage = await provider.getStorageAt(proxy.address, '0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103');
+                // const ownerStorage = await provider.getStorageAt(proxy.address, '0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103');
                 // const currentOwner = getAddress(`0x${ownerStorage.substr(-40)}`);
                 const oldProxy = proxy.abi.find((frag) => frag.name === 'changeImplementation');
                 const changeImplementationMethod = oldProxy
